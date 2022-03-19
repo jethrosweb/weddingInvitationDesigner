@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Minimalist Wedding Invitations</title>
+    <link rel="shortcut icon" href="./media/flavicon.png"/>
+</head>
+<body>
+<div class="main-grid">
+    <div class="header">
+        <h1>Minimalist Wedding Invitation Designer</h1>
+    </div>
+
+    <div class="inputs">
+        <section>
+            <nav>
+                <button class="buttons" id="simple-btn">Simple</button>
+                <button class="buttons" id="abstract-btn">Abstract</button>
+                <button class="buttons" id="textured-btn">Textured</button>
+            </nav>
+
+            <hr>
+
+            <p>1st Name:</p>
+            <input id="first-name-input" type="text" maxlength="10" class="input-border">
+
+            <p>2nd Name:</p>
+            <input id="second-name-input" type="text" maxlength="10" class="input-border">
+
+            <p>Last Name:</p>
+            <input id="last-name-input" type="text" maxlength="10" class="input-border">
+
+            <p>Date:</p>
+            <input id="date-input" type="date" class="input-border">
+
+            <p>Wedding Location:</p>
+            <input id="location-input" type="text" maxlength="30" class="input-border">
+        </section>
+    </div>
+
+    <div id="template-grid-container">
+        <p id="initial-output"></p>
+        <p id="names-output"></p>
+        <p id="last-name-output"></p>
+        <p id="date-output"></p>
+        <p id="location-output"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

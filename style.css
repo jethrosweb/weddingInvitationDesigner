@@ -1,0 +1,130 @@
+/* Document setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Main Grid */
+.main-grid {
+    height: 100vh;
+    
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'inputs templates';
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 5rem 1fr;
+    justify-content: center;
+}
+
+/* Header grid */
+.header {
+    grid-area: header;
+
+    text-align: center;
+}
+
+/* Input grid & children */
+.inputs {
+    grid-area: inputs;
+
+    text-align: center;
+}
+
+.buttons {
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.inputs p {
+    font-weight: bold;
+}
+
+#date-input {
+    width: 192px;
+    text-align: center;
+}
+
+.input-border {
+    border: 1px solid black;
+}
+
+/* Template grid, subgrid, & children */
+#template-grid-container {
+    grid-area: templates;
+
+    background-image: url(./media/style-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0px 20px;
+
+    display: grid;
+    grid-template-rows: 10% 20% 5% 10% 35% 5% 5% 1%;
+}
+
+/* Template subgrid on-load assignments */
+#initial-output {
+    font-family: "Phosphate"; 
+    font-size: 8vmin;
+
+    grid-row: 2;
+    align-self: flex-start;
+}
+
+#names-output {
+    font-family: "Phosphate"; 
+    font-size: 4vmin;
+
+    grid-row: 3;
+}
+
+#last-name-output {
+    font-family: "Phosphate"; 
+    font-size: 6vmin;
+
+    grid-row: 4;
+}
+
+#date-output {
+    font-family: "Rockwell"; 
+    font-size: 3vmin;
+
+    grid-row: 6;
+}
+
+#location-output {
+    font-family: "Rockwell"; 
+    font-size: 3vmin;
+
+    grid-row: 7;
+}
+
+/* Ignore, was just playng around with media queries - not completed */
+@media only screen and (max-width: 1475px) {
+    .main-grid {
+        grid-template-areas:
+        'header'
+        'inputs'
+        'templates';
+        grid-template-columns: 1fr;
+        grid-template-rows: 7% 40% 53%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .main-grid {
+        grid-template-rows: 10% 40% 50%;
+    }
+}
+
