@@ -9,10 +9,10 @@ Requirements:
 - Be Creative! If you want to corner the market on Goth-asthetic invitations, DO IT. If you think that super-kawaii anime invitations are your fast-track to riches and wealth MAKE IT HAPPEN. Remember this goes in your portfolio. Make sure your work is authentic and true to you.
 
 <p float="left>
-  <img width="49" alt="Screen Shot 2022-03-30 at 4 48 42 pm" src="https://user-images.githubusercontent.com/96323853/160761639-f68a7675-eefa-411f-a8f1-673171234e04.png">
   <img width="49%" alt="Screen Shot 2022-03-30 at 4 48 52 pm" src="https://user-images.githubusercontent.com/96323853/160761409-95d16806-455d-48cd-b5fb-7c4fed0cc367.png">
+  <img width="49%" alt="Screen Shot 2022-03-30 at 4 49 08 pm" src="https://user-images.githubusercontent.com/96323853/160761418-e53457e0-d967-4298-bb32-54ea3c75806c.png">
 </p>
 <p align="center">
-  <img width="49%" alt="Screen Shot 2022-03-30 at 4 49 08 pm" src="https://user-images.githubusercontent.com/96323853/160761418-e53457e0-d967-4298-bb32-54ea3c75806c.png">
+  <img width="1527" alt="Screen Shot 2022-03-30 at 5 01 11 pm" src="https://user-images.githubusercontent.com/96323853/160761919-11e6b122-4d10-4aa5-8205-728008f7fc0f.png">
 </p>
 
