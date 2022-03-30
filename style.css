@@ -111,7 +111,7 @@ body {
 }
 
 /* Ignore, was just playng around with media queries - not completed */
-@media only screen and (max-width: 1475px) {
+/* @media only screen and (max-width: 1475px) {
     .main-grid {
         grid-template-areas:
         'header'
@@ -126,5 +126,5 @@ body {
     .main-grid {
         grid-template-rows: 10% 40% 50%;
     }
-}
+} */
 
